@@ -16,9 +16,11 @@ class SplashPresenter: BasePresenter<SplashView> {
     }
     
     func logIn() {
+        
     }
     
     func onLogin() {
+        router.showAuthenticatedVC(animated: false)
     }
     
     func onError(error: Error) {

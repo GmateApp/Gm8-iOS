@@ -18,4 +18,8 @@ class Router {
         mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
     }
 
+    func showAuthenticatedVC(animated: Bool) {
+        let skillRateVC = mainStoryboard.instantiateViewController(withIdentifier: "AuthenticatedVC")
+        viewController.present(skillRateVC, animated: animated, completion: nil)
+    }
 }
