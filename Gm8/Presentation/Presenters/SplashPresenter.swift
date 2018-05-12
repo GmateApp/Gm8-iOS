@@ -21,8 +21,7 @@ class SplashPresenter: BasePresenter<SplashView> {
     }
     
     func logIn() {
-        let accessToken = " EAAHkLkFqSFwBAHR7tUweuQVFth8vim420Q22ofe8OUPRDnnYLajQm01UOu29pdrykQOMdMZALv2Ac4n6ForLmbMu9kwMC9Xx5mG4MFoWOwJVj80TjePzSZA2OV3WbI1aYMkAj1JQOVeR2eel2bZBBjb7uWSBum9us22pLB1WMhsz10ZA8adfT6ZB3d5U8nZAjTiwKv2XxCIWsxxEZAoZBHlR4i2BgGbbHONSgjO18nIZA7QZDZD"
-        
+        let accessToken = "EAAHkLkFqSFwBAHR7tUweuQVFth8vim420Q22ofe8OUPRDnnYLajQm01UOu29pdrykQOMdMZALv2Ac4n6ForLmbMu9kwMC9Xx5mG4MFoWOwJVj80TjePzSZA2OV3WbI1aYMkAj1JQOVeR2eel2bZBBjb7uWSBum9us22pLB1WMhsz10ZA8adfT6ZB3d5U8nZAjTiwKv2XxCIWsxxEZAoZBHlR4i2BgGbbHONSgjO18nIZA7QZDZD"
         let jwtokenRequestApi = JWTokenRequestAPI(data: ProviderDataRequestAPI(token: accessToken), provider: "facebook")
         let apiService = APICommunication()
         let obs: Observable<JWToken> = apiService.getJWToken(request: jwtokenRequestApi)

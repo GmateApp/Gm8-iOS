@@ -20,8 +20,10 @@ class APICommunication: APIService {
     }
     
     func getJWToken(request: JWTokenRequestAPI) -> Observable<JWTokenResponseAPI> {
-        return requestExecutor.execute(to: "https://gm8app.herokuapp.com/api/authentication", with: request.toJSON(), method: .post)
+        return requestExecutor.execute(to: "https://69b85b0d.ngrok.io/api/authentication", with: request.toJSON(), method: .post)
     }
+    
+    //func getUsers() -> 
     
     func getRequestHeader() -> HTTPHeaders {
         return ["Authorization": "Bearer " + keyChain.getAccesToken()]
