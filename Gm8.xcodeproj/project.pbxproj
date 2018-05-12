@@ -15,6 +15,19 @@
 		D60578C620A726CF00827C26 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578C520A726CF00827C26 /* LoginViewController.swift */; };
 		D60578C820A7307600827C26 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578C720A7307600827C26 /* LoginView.swift */; };
 		D60578CA20A7308200827C26 /* SkillRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578C920A7308200827C26 /* SkillRateView.swift */; };
+		D60578CC20A7331A00827C26 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578CB20A7331A00827C26 /* ApiService.swift */; };
+		D60578CE20A7333500827C26 /* APICommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578CD20A7333500827C26 /* APICommunication.swift */; };
+		D60578D320A733D300827C26 /* JWTokenRequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578D220A733D300827C26 /* JWTokenRequestAPI.swift */; };
+		D60578D520A733EA00827C26 /* JWTokenResponseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578D420A733EA00827C26 /* JWTokenResponseAPI.swift */; };
+		D60578D820A7340E00827C26 /* ProviderDataRequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578D720A7340E00827C26 /* ProviderDataRequestAPI.swift */; };
+		D60578DB20A7346800827C26 /* JWTokenMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578DA20A7346800827C26 /* JWTokenMapper.swift */; };
+		D60578DF20A734EE00827C26 /* RequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578DE20A734EE00827C26 /* RequestExecutor.swift */; };
+		D60578E220A7351A00827C26 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578E120A7351A00827C26 /* Reachability.swift */; };
+		D60578E620A7370600827C26 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578E520A7370600827C26 /* KeyChain.swift */; };
+		D60578E820A7382F00827C26 /* HttpException.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578E720A7382F00827C26 /* HttpException.swift */; };
+		D60578EC20A7388D00827C26 /* NetworkConnectionException.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578EB20A7388D00827C26 /* NetworkConnectionException.swift */; };
+		D60578EE20A7393900827C26 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578ED20A7393900827C26 /* Errors.swift */; };
+		D60578F020A7397800827C26 /* JWToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60578EF20A7397800827C26 /* JWToken.swift */; };
 		D6309BD920A70B0400DD52DC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6309BD820A70B0400DD52DC /* SplashViewController.swift */; };
 		D6309BDB20A70B3300DD52DC /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6309BDA20A70B3300DD52DC /* SplashView.swift */; };
 		D6309BDD20A70BD800DD52DC /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6309BDC20A70BD800DD52DC /* SplashPresenter.swift */; };
@@ -63,6 +76,19 @@
 		D60578C520A726CF00827C26 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D60578C720A7307600827C26 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D60578C920A7308200827C26 /* SkillRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillRateView.swift; sourceTree = "<group>"; };
+		D60578CB20A7331A00827C26 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		D60578CD20A7333500827C26 /* APICommunication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICommunication.swift; sourceTree = "<group>"; };
+		D60578D220A733D300827C26 /* JWTokenRequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTokenRequestAPI.swift; sourceTree = "<group>"; };
+		D60578D420A733EA00827C26 /* JWTokenResponseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTokenResponseAPI.swift; sourceTree = "<group>"; };
+		D60578D720A7340E00827C26 /* ProviderDataRequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDataRequestAPI.swift; sourceTree = "<group>"; };
+		D60578DA20A7346800827C26 /* JWTokenMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTokenMapper.swift; sourceTree = "<group>"; };
+		D60578DE20A734EE00827C26 /* RequestExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestExecutor.swift; sourceTree = "<group>"; };
+		D60578E120A7351A00827C26 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		D60578E520A7370600827C26 /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
+		D60578E720A7382F00827C26 /* HttpException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpException.swift; sourceTree = "<group>"; };
+		D60578EB20A7388D00827C26 /* NetworkConnectionException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnectionException.swift; sourceTree = "<group>"; };
+		D60578ED20A7393900827C26 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		D60578EF20A7397800827C26 /* JWToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWToken.swift; sourceTree = "<group>"; };
 		D6309BD820A70B0400DD52DC /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		D6309BDA20A70B3300DD52DC /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		D6309BDC20A70BD800DD52DC /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
@@ -121,6 +147,66 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D60578CF20A733A900827C26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D60578D020A733B500827C26 /* Request */,
+				D60578D120A733BA00827C26 /* Resposne */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D60578D020A733B500827C26 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				D60578D220A733D300827C26 /* JWTokenRequestAPI.swift */,
+				D60578D720A7340E00827C26 /* ProviderDataRequestAPI.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		D60578D120A733BA00827C26 /* Resposne */ = {
+			isa = PBXGroup;
+			children = (
+				D60578D420A733EA00827C26 /* JWTokenResponseAPI.swift */,
+			);
+			path = Resposne;
+			sourceTree = "<group>";
+		};
+		D60578D920A7344700827C26 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				D60578DA20A7346800827C26 /* JWTokenMapper.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		D60578DC20A734A200827C26 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D60578DE20A734EE00827C26 /* RequestExecutor.swift */,
+				D60578E120A7351A00827C26 /* Reachability.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D60578E320A736EC00827C26 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				D60578E520A7370600827C26 /* KeyChain.swift */,
+			);
+			path = KeyChain;
+			sourceTree = "<group>";
+		};
+		D60578E920A7386400827C26 /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				D60578E720A7382F00827C26 /* HttpException.swift */,
+				D60578EB20A7388D00827C26 /* NetworkConnectionException.swift */,
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
 		D663EEBE20A6DAFB002FFF64 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +223,7 @@
 		D663EEBF20A6DB05002FFF64 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D60578E320A736EC00827C26 /* KeyChain */,
 				D663EEC820A6F166002FFF64 /* Network */,
 			);
 			path = Data;
@@ -174,6 +261,8 @@
 		D663EEC520A6F0DE002FFF64 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D60578ED20A7393900827C26 /* Errors.swift */,
+				D60578EF20A7397800827C26 /* JWToken.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,6 +288,12 @@
 		D663EEC820A6F166002FFF64 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				D60578E920A7386400827C26 /* Exceptions */,
+				D60578D920A7344700827C26 /* Mappers */,
+				D60578CF20A733A900827C26 /* Models */,
+				D60578DC20A734A200827C26 /* Utils */,
+				D60578CB20A7331A00827C26 /* ApiService.swift */,
+				D60578CD20A7333500827C26 /* APICommunication.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -474,6 +569,11 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -487,6 +587,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -591,11 +696,24 @@
 				D68E6A2D20A634FE00EF4E19 /* AppDelegate.swift in Sources */,
 				D6309BE320A7133500DD52DC /* Router.swift in Sources */,
 				D60578C820A7307600827C26 /* LoginView.swift in Sources */,
+				D60578D320A733D300827C26 /* JWTokenRequestAPI.swift in Sources */,
+				D60578DF20A734EE00827C26 /* RequestExecutor.swift in Sources */,
 				D6309BE120A70CAA00DD52DC /* BaseView.swift in Sources */,
+				D60578F020A7397800827C26 /* JWToken.swift in Sources */,
 				D6309BDB20A70B3300DD52DC /* SplashView.swift in Sources */,
+				D60578E620A7370600827C26 /* KeyChain.swift in Sources */,
+				D60578DB20A7346800827C26 /* JWTokenMapper.swift in Sources */,
 				D60578CA20A7308200827C26 /* SkillRateView.swift in Sources */,
 				D60578C220A7267B00827C26 /* SkillRatePresenter.swift in Sources */,
+				D60578E220A7351A00827C26 /* Reachability.swift in Sources */,
+				D60578EE20A7393900827C26 /* Errors.swift in Sources */,
+				D60578EC20A7388D00827C26 /* NetworkConnectionException.swift in Sources */,
 				D6309BDD20A70BD800DD52DC /* SplashPresenter.swift in Sources */,
+				D60578D820A7340E00827C26 /* ProviderDataRequestAPI.swift in Sources */,
+				D60578D520A733EA00827C26 /* JWTokenResponseAPI.swift in Sources */,
+				D60578CC20A7331A00827C26 /* ApiService.swift in Sources */,
+				D60578E820A7382F00827C26 /* HttpException.swift in Sources */,
+				D60578CE20A7333500827C26 /* APICommunication.swift in Sources */,
 				D60578C620A726CF00827C26 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

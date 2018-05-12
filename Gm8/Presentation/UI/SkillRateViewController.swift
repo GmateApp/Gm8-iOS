@@ -8,8 +8,7 @@
 
 import UIKit
 
-class LogInViewController: SkillRateViewController, SkillRateView {
-    
+class SkillRateViewController: UIViewController, SkillRateView {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,6 +16,10 @@ class LogInViewController: SkillRateViewController, SkillRateView {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    func onError() {
+        
     }
     
 }

@@ -11,6 +11,11 @@ target 'Gm8' do
   pod 'GoogleSignIn'
   pod 'Alamofire', '~> 4.5'
   pod 'KeychainSwift', '~> 10.0'
+  pod 'SwiftyJSON'
+  pod 'Kingfisher', '~> 4.0'
+  pod 'ObjectMapper', '~> 3.1'
+  pod 'RxSwift',    '~> 4.0'
+  pod 'RxCocoa',    '~> 4.0'
 
   target 'Gm8Tests' do
     inherit! :search_paths
