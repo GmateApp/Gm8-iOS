@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SplashViewController: UIViewController, SplashView {
+    
+    var presenter: SplashPresenter!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +23,10 @@ class ViewController: UIViewController {
     }
 
 
+    func setPresenter() {
+        presenter = SplashPresenter(router: Router(viewController: self))
+        presenter.view = self
+    }
+    
 }
 
